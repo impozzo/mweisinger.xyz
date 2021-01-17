@@ -1,0 +1,23 @@
+body{
+    
+}
+
+#logo-text{
+    font-family: 'Roboto Slab', serif;
+}
+
+#logo-m{
+    background-color: black;
+    color:white;
+}
+
+#logo-w{
+    background-color: red;
+    color:white;
+}
+
+#logo-eisinger{
+    background-color: black;
+    color:white;
+}
+}
