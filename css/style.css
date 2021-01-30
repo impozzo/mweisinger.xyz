@@ -1,23 +1,65 @@
+
+*{
+    box-sizing: border-box;
+}
+
+html 
+{ 
+    font-size: 62.5%; 
+} 
+
 body{
+    font-size: 1.6rem;
+}
+
+
+.font-10-rem{
+    font-size: 1.0rem;
+}
+.font-12-rem{
+    font-size: 1.2rem;
+}
+.font-14-rem{
+    font-size: 1.4rem;
+}
+.font-16-rem{
+    font-size: 1.6rem;
+}
+.font-18-rem{
+    font-size: 1.8rem;
+}
+.font-24-rem{
+    font-size: 2.4rem;
+}
+
+
+
+/* Media queries */
+
+@media screen and (min-width: 576px) {
     
-}
 
-#logo-text{
-    font-family: 'Roboto Slab', serif;
-}
 
-#logo-m{
-    background-color: black;
-    color:white;
-}
 
-#logo-w{
-    background-color: red;
-    color:white;
-}
+  } 
 
-#logo-eisinger{
-    background-color: black;
-    color:white;
-}
-}
+@media screen and (min-width: 768px) {
+    
+
+    
+} 
+@media screen and (min-width: 992px) {
+    
+
+    
+} 
+@media screen and (min-width: 1200px) {
+    
+
+    
+} 
+@media screen and (min-width: 1400px) {
+    
+
+    
+} 
