@@ -1,0 +1,31 @@
+section {
+    display: flex;
+}
+
+article {
+    flex: 1 200px;
+    background-color: lightcoral;
+}
+
+article:nth-of-type(3) {
+    flex: 3 200px;
+    display: flex;
+    flex-flow: column;
+    background-color: lightsalmon;
+}
+
+article:nth-of-type(3) div:first-child {
+    flex: 1 100px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+    background-color: palevioletred;
+}
+
+button {
+    flex: 1 auto;
+    margin: 5px;
+    font-size: 18px;
+    line-height: 1.5;
+}
