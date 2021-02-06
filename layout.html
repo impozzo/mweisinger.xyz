@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
         integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Michael Weisinger</title>
 </head>
@@ -17,33 +17,65 @@
 <body>
 
     <header>
-        <nav class="nav">
-            <a href="" class="logo">CSS Nav</a>
-            <input class="menu-btn" type="checkbox" id="menu-btn" />
-            <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
-            <ul class="menu">
-              <li><a href="#work">Our Work</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#careers">Careers</a></li>
-              <li><a href="#contact">Contact</a></li>            </ul>
+        <nav id="main-navbar" class="main-nav">
+
+            <div class="main-navbar-item">
+                <div id="main-logo">
+                    <a href="" class="logo ">MWeisinger.XYZ</a>
+                </div>
+                <div id="menu-btn">
+                    <button id="toggle-menu-btn" class="" type="button">
+                        <span class="navbar-toggler-icon"> more</span>
+                    </button>
+                </div>
+            </div>
+            <div id="navbar-menu" class="main-navbar-item">
+                <ul class="navbar-container">
+                    <li class="navbar-menu-item"><a href="/index.html">Home</a></li>
+                    <li class="navbar-menu-item"><a href="#about">About</a></li>
+                    <li class="navbar-menu-item"><a href="#careers">Careers</a></li>
+                    <li class="navbar-menu-item"><a href="/contact.html">Contact</a></li>
+                </ul>
+            </div>
+
         </nav>
-        
+
     </header>
 
-    <main> 
-        
+    <main>
+        <hgroup>
+            <h1>Calculus I</h1>
+            <h2>Fundamentals</h2>
+        </hgroup>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid reiciendis mollitia, dicta nam iusto illum
+            porro dolorum blanditiis neque at deleniti reprehenderit enim eaque officiis ab atque inventore aliquam
+            tempore!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, architecto recusandae doloremque nihil unde
+            nulla quasi reiciendis. Doloribus quia alias sint earum, sed culpa soluta eum non aperiam similique
+            doloremque?</p>
+        <ul class="">
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#careers">Careers</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+        </ul>
+        <section>
+            <h3>An H3</h3>
+        </section>
+
+
     </main>
 
 
 
     <footer>
-
+        A footer
     </footer>
 
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-    <script src="/js/javascript.js"></script>
+    <script src="/js/navbar.js"></script>
 </body>
 
 </html>
