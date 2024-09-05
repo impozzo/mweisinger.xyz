@@ -1,0 +1,37 @@
+/*- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+@media (max-width: 84em) {
+  .cards {
+    
+    column-gap: 3.2rem;
+  }
+}
+
+@media(max-width: 81em){
+
+    .cards{
+        grid-template-columns: repeat(2, auto);
+        column-gap: 4.8rem;
+        align-content: center;
+    }
+
+
+}
+
+@media(max-width: 70em){
+
+    .hero {
+        
+        gap: 6.4rem;
+      }
+
+      html {
+        /* 9px / 16px  */
+        font-size: 56.25%;
+      }
+
+}
